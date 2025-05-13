@@ -29,7 +29,7 @@ COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 USER 1000
 
 # add our application binary
-COPY one2sen /one2sen
+COPY euvd /euvd
 
 # entrypoint
 ENTRYPOINT ["/euvd"]
