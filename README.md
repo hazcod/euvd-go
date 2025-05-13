@@ -1,4 +1,4 @@
-# one2sentinel
+# euvd-go
 
 A Go program that exports 1Password usage, signin and audit events to Microsoft Sentinel SIEM.
 
@@ -17,3 +17,7 @@ Run from binary:
 ```shell
 % make build
 ```
+
+## Usage as an SDK
+
+Take a look at our own `cli.go` [here](https://github.com/hazcod/euvd-go/blob/main/cmd/cli.go).
