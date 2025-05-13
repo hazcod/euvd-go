@@ -1,6 +1,6 @@
 # euvd-go
 
-A Go program that exports 1Password usage, signin and audit events to Microsoft Sentinel SIEM.
+A Go SDK and commandline application to pull up data from the [ENISA EU Vulnerability Database](https://euvd.enisa.europa.eu/).
 
 ## Running
 
